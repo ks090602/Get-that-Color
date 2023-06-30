@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Moirai+One&family=Open+Sans:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9d8fd;
+  width: 350px;
+  height: 100px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapperDiv {
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-direction:row;
+  gap:40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.changeButtonColor {
+  width: 11em;
+  height: 3em;
+  border: 1em;
+  border-radius: 1em;
+  background-color: #7a37c9;
+  color:white;
+  font-size:15psx;
+  font-style: bold;
+  margin: auto;
+  cursor: pointer;
+}
+
+.changeButtonColor:hover {
+  background-color: red;
+}
+
+.colorHexValue{
+    margin:"100px 0 0 0";
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: solid;
+    font-size:larger;
+}
+
